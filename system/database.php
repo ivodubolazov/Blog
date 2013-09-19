@@ -111,7 +111,7 @@ function db_error_out($sql = NULL)
 	}
 	else {
 		$errors[] = $output;
-		require 'views/templates/error_template.php';
+		require 'templates/error_template.php';
 	}
 	die();
 
