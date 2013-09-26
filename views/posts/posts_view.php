@@ -1,5 +1,5 @@
 <div class="span8">
-		<a href="<?=BASE_URL?>posts/view/<?=$post['post_id']?>"><h1><?=$post['post_subject']?></h1></a>
+		<h1><?=$post['post_subject']?></h1>
 		<p><?=$post['post_text']?></p>
 		<div>
 			<span class="badge badge-success"><?=$post['post_created']?></span>
