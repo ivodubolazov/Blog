@@ -7,7 +7,9 @@
 	<div>
 		<span class="badge badge-success"><?=$post['post_created']?></span>
 		<div class="pull-right">
-			<span class="label" style="background-color:#8d9aa7;"><?=$post['post_subject']?></span>
+
+				<span class="label" style="background-color:#8d9aa7;">Taggi nimetus</span>
+
 		</div>
 	</div>
 		<hr>
